@@ -1,7 +1,7 @@
 price = 0
 tickets = int(input("Введите количество билетов:"))
 for age in range(tickets):
-    age = int(input("Введите возраст"))
+    age = int(input("Введите возраст:"))
     if age < 18:
         price += 0
     elif 18 <= age < 25:
